@@ -87,7 +87,8 @@ public class VarastoTest {
     public void varastoonEiMahduYliKapasiteetin() {
         varasto.lisaaVarastoon(5);
         varasto.lisaaVarastoon(100);
-        assertTrue(varasto.getSaldo() == 10);
+        //assertTrue(varasto.getSaldo() == 10); /rikoin muahaha
+        assertTrue(varasto.getSaldo() == 5);
     }
     
     @Test
