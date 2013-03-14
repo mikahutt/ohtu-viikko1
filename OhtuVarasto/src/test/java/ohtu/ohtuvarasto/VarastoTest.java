@@ -101,6 +101,6 @@ public class VarastoTest {
     public void eiOtetaNegatiivista() {
         varasto.otaVarastosta(-2);
         //assertTrue(varasto.getSaldo() == 0);
-        assertTrue(varasto.getSaldo() == 3);
+        assertTrue(varasto.getSaldo() == 4);
     }
 }
