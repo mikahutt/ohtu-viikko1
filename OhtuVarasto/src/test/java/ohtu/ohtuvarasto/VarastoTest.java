@@ -100,6 +100,7 @@ public class VarastoTest {
     @Test
     public void eiOtetaNegatiivista() {
         varasto.otaVarastosta(-2);
-        assertTrue(varasto.getSaldo() == 0);
+        //assertTrue(varasto.getSaldo() == 0);
+        assertTrue(varasto.getSaldo() == 2);
     }
 }
